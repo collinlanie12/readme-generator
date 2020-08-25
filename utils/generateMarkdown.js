@@ -1,8 +1,11 @@
 function generateMarkdown(answers) {
     return `
-    ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
-    ![npm](https://img.shields.io/npm/v/inquirer) 
-    ![GitHub](https://img.shields.io/github/license/${answers.moreInfo}/${answers.title})
+![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
+
+![npm](https://img.shields.io/npm/v/inquirer) 
+
+![NPM](https://img.shields.io/npm/l/inquirer)
+
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#install)
