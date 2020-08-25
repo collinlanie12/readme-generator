@@ -1,7 +1,7 @@
 
-    ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
-    ![npm](https://img.shields.io/npm/v/inquirer) 
-    ![GitHub](https://img.shields.io/github/license/collinlanie12/readme-generator)
+![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
+![npm](https://img.shields.io/npm/v/inquirer) 
+![GitHub](https://img.shields.io/github/license/collinlanie12/readme-generator)
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#install)
