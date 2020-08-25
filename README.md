@@ -1,8 +1,6 @@
 
 ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
-
 ![npm](https://img.shields.io/npm/v/inquirer) 
-
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
 # Table of Contents
