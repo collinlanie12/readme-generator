@@ -1,0 +1,26 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinlanie12/readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinlanie12/readme-generator/issues"
+  },
+  "homepage": "https://github.com/collinlanie12/readme-generator#readme",
+  "dependencies": {
+    "git-repo-name": "^1.0.1",
+    "inquirer": "^7.3.3",
+    "node-emoji": "^1.10.0",
+    "terminal-image": "^1.2.1"
+  }
+}
