@@ -5,7 +5,7 @@ const terminalImage = require('terminal-image');
 const repoName = require('git-repo-name');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-let readMeString;
+
 
 //emoji list
 const exclaim = emoji.get('exclamation');
@@ -14,7 +14,6 @@ const arrowDown = emoji.get('arrow_down');
 const comp = emoji.get('computer');
 const mail = emoji.get('mailbox');
 const person = emoji.get('bust_in_silhouette');
-const testPerson = emoji.get('male-technologist');
 const date = emoji.get('date');
 const briefCase = emoji.get('briefcase');
 
@@ -90,7 +89,6 @@ inquirer
         }
     ])
     .then(answers => {
-        console.log(answers);
         fs.writeFile("README.md", generateMarkdown(answers), err => {
             if (err) {
                 return console.log(err);

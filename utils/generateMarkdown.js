@@ -1,18 +1,15 @@
 function generateMarkdown(answers) {
     return `
-![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
-
 ![npm](https://img.shields.io/npm/v/inquirer) 
-
-![NPM](https://img.shields.io/npm/l/inquirer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#install)
-3. [Usage](#use)
-4. [Testing](#test)
-5. [Contact](#info)
-6. [License](#license)
+* [Introduction](#introduction)
+* [Installation](#install)
+* [Usage](#use)
+* [Testing](#test)
+* [Contact](#info)
+* [License](#license)
 
 # ${answers.title} <a name="introduction"></a>
 ${answers.description}
