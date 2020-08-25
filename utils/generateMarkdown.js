@@ -1,6 +1,8 @@
 function generateMarkdown(answers) {
     return `
-    ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) ![npm](https://img.shields.io/npm/v/inquirer) ![GitHub](https://img.shields.io/github/license/${answers.moreInfo}/${answers.title})
+    ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
+    ![npm](https://img.shields.io/npm/v/inquirer) 
+    ![GitHub](https://img.shields.io/github/license/${answers.moreInfo}/${answers.title})
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#install)
@@ -13,24 +15,24 @@ function generateMarkdown(answers) {
 ${answers.description}
 
 ## Installation: <a name="install"></a>
----
+
 > ${answers.install}
 ## Usage: <a name="use"></a>
----
+
 ${answers.usage}
 ## Testing: <a name="test"></a>
----
+
 > ${answers.test}
 ## Contributors: <a name="contributors"></a>
----
+
 ${answers.contributors}
 ## Questions: <a name="info"></a>
----
+
 My Github is: [${answers.moreInfo}](https://github.com/${answers.moreInfo}) :octocat:
 
 You can reach me at:  ${answers.email}
 ## License: <a name="license"></a>
----
+
 ${getLicense(answers)}
 
     `;

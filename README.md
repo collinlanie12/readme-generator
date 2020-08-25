@@ -1,5 +1,7 @@
 
-    ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) ![npm](https://img.shields.io/npm/v/inquirer) ![GitHub](https://img.shields.io/github/license/collinlanie12/readme-generator)
+    ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) 
+    ![npm](https://img.shields.io/npm/v/inquirer) 
+    ![GitHub](https://img.shields.io/github/license/collinlanie12/readme-generator)
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#install)
@@ -9,27 +11,27 @@
 6. [License](#license)
 
 # readme-generator <a name="introduction"></a>
-This is the readme for my readme-generator project!
+Generator for README.md using node inquirer.
 
 ## Installation: <a name="install"></a>
----
+
 > npm i
 ## Usage: <a name="use"></a>
----
-To generate a README.md using CLI
+
+To generate a readme using CLI. A user can input the readme data from the command line.
 ## Testing: <a name="test"></a>
----
+
 > node index.js
 ## Contributors: <a name="contributors"></a>
----
+
 Collin Lanier
 ## Questions: <a name="info"></a>
----
+
 My Github is: [collinlanie12](https://github.com/collinlanie12) :octocat:
 
 You can reach me at:  collinlanier12@gmail.com
 ## License: <a name="license"></a>
----
+
 
         
 MIT License
