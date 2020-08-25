@@ -11,7 +11,12 @@ let readMeString;
 const exclaim = emoji.get('exclamation');
 const describe = emoji.get('spiral_note_pad');
 const arrowDown = emoji.get('arrow_down');
-
+const comp = emoji.get('computer');
+const mail = emoji.get('mailbox');
+const person = emoji.get('bust_in_silhouette');
+const testPerson = emoji.get('male-technologist');
+const date = emoji.get('date');
+const briefCase = emoji.get('briefcase');
 
 inquirer
     .prompt([
@@ -36,45 +41,63 @@ inquirer
         },
         {
             type: "input",
-            message: "What is the usage of your project?",
+            message: comp + " What is the usage of your project?",
             name: "usage",
             default: "To enjoy!",
         },
         {
             type: "list",
-            message: "What type of license will you be using?",
+            message: briefCase + " What type of license will you be using?",
             choices: ["MIT", "GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "ISC"],
             name: "license",
             default: "MIT",
         },
         {
             type: "input",
-            message: "What is your full name?",
+            message: person + " What is your full name?",
             name: "fullName",
             default: "John Doe",
         },
         {
             type: "input",
-            message: "What year is it?",
+            message: date + " What year is it?",
             name: "year",
             default: "2020",
         },
         {
             type: "input",
-            message: "Write all contributors, or just your name",
+            message: person + " Write all contributors, or just your name.",
             name: "contributors",
             default: "John Doe",
+        },
+        {
+            type: "input",
+            message: comp + " What should be used to run test?",
+            name: "test",
+            default: "npm test",
+        },
+        {
+            type: "input",
+            message: person + " Enter github username?",
+            name: "moreInfo",
+            default: "JohnDoe12",
+        },
+        {
+            type: "input",
+            message: mail + " Enter your email",
+            name: "email",
+            default: "johndoe@gmail.com",
         }
     ])
     .then(answers => {
         console.log(answers);
-        fs.writeFile("README2.md", generateMarkdown(answers), err => {
+        fs.writeFile("README.md", generateMarkdown(answers), err => {
             if (err) {
                 return console.log(err);
             }
             (async () => {
                 console.log(await terminalImage.file('./img/readme-generated.jpg', { width: 50, height: 40 }));
-                console.log("README Generated");
+                console.log("README Generated!");
             })();
 
         });

@@ -1,18 +1,35 @@
 function generateMarkdown(answers) {
     return `
-# ${answers.title}
+    ![npm](https://img.shields.io/npm/dw/readme-generator?style=for-the-badge) ![npm](https://img.shields.io/npm/v/inquirer) ![GitHub](https://img.shields.io/github/license/${answers.moreInfo}/${answers.title})
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#install)
+3. [Usage](#use)
+4. [Testing](#test)
+5. [Contact](#info)
+6. [License](#license)
+
+# ${answers.title} <a name="introduction"></a>
 ${answers.description}
 
-## Installation:
+## Installation: <a name="install"></a>
 ---
 > ${answers.install}
-## Usage:
+## Usage: <a name="use"></a>
 ---
 ${answers.usage}
-## Contributors:
+## Testing: <a name="test"></a>
+---
+> ${answers.test}
+## Contributors: <a name="contributors"></a>
 ---
 ${answers.contributors}
-## License:
+## Questions: <a name="info"></a>
+---
+My Github is: [${answers.moreInfo}](https://github.com/${answers.moreInfo}) :octocat:
+
+You can reach me at:  ${answers.email}
+## License: <a name="license"></a>
 ---
 ${getLicense(answers)}
 
