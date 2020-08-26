@@ -8,6 +8,7 @@
 * [Usage](#use)
 * [Testing](#test)
 * [Demo](#demo)
+* [Contributors](#contributors)
 * [Contact](#info)
 * [License](#license)
 

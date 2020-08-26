@@ -8,6 +8,7 @@ function generateMarkdown(answers) {
 * [Installation](#install)
 * [Usage](#use)
 * [Testing](#test)
+* [Contributors](#contributors)
 * [Contact](#info)
 * [License](#license)
 
